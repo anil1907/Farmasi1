@@ -1,0 +1,270 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Farmasi | Üye Kayıt</title>
+    <meta name="description" content="Farmasi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="~/assest/f.png">
+
+    <!-- CSS here -->
+    <link href="~/assest/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="~/assest/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/assest/css/flaticon.css" rel="stylesheet" />
+    <link href="~/assest/css/slicknav.css" rel="stylesheet" />
+    <link href="~/assest/css/animate.min.css" rel="stylesheet" />
+    <link href="~/assest/css/magnific-popup.css" rel="stylesheet" />
+    <link href="~/assest/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="~/assest/css/themify-icons.css" rel="stylesheet" />
+    <link href="~/assest/css/slick.css" rel="stylesheet" />
+    <link href="~/assest/css/nice-select.css" rel="stylesheet" />
+    <link href="~/assest/css/style.css" rel="stylesheet" />
+    <style>
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+    </style>
+
+    <script src="~/assest/js/vendor/modernizr-3.5.0.min.js"></script>
+    @*<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>*@
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="~/assest/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/assest/js/popper.min.js"></script>
+    <script src="~/assest/js/bootstrap.min.js"></script>
+
+    <!-- Jquery Mobile Menu -->
+    <script src="~/assest/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="~/assest/js/owl.carousel.min.js"></script>
+    <script src="~/assest/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="~/assest/js/wow.min.js"></script>
+    <script src="~/assest/js/animated.headline.js"></script>
+    <script src="~/assest/js/jquery.magnific-popup.js"></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="~/assest/js/jquery.scrollUp.min.js"></script>
+    <script src="~/assest/js/jquery.nice-select.min.js"></script>
+    <script src="~/assest/js/jquery.sticky.js"></script>
+
+    <!-- contact js -->
+    <script src="~/assest/js/contact.js"></script>
+    <script src="~/assest/js/jquery.form.js"></script>
+    <script src="~/assest/js/jquery.validate.min.js"></script>
+    <script src="~/assest/js/mail-script.js"></script>
+
+    <script src="~/assest/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="~/assest/js/plugins.js"></script>
+    <script src="~/assest/js/main.js"></script>
+
+    @*<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/style.css">*@
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/+905414805015" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="~/assest/images/f1.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="../Home/Index"><img src="~/assest/images/f1.jpg" style="width: 165px;" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="/Home/Hakkimizda">Hakkımızda</a></li>
+                                    <li><a href="/Home/Katalog">Katalog</a></li>
+                                    <li><a href="/Home/Sertifikalar">Sertifikalarımız</a></li>
+                                    <li><a href="/Home/NedenUyeOlmaliyim">Neden Üye Olmalıyım?</a></li>
+                                    <li><a href="/Home/KayitOl">Hemen Üye Ol</a></li>
+                                    @*<li class="hot">
+                                            <a href="#">Latest</a>
+                                            <ul class="submenu">
+                                                <li><a href="shop.html"> Product list</a></li>
+                                                <li><a href="product_details.html"> Product Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="blog.html">Blog</a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pages</a>
+                                            <ul class="submenu">
+                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="cart.html">Cart</a></li>
+                                                <li><a href="elements.html">Element</a></li>
+                                                <li><a href="confirmation.html">Confirmation</a></li>
+                                                <li><a href="checkout.html">Product Checkout</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>*@
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Right -->
+                        @*<div class="header-right">
+                                    <ul>
+                                        <li>
+                                            <div class="nav-search search-switch">
+                                                <span class="flaticon-search"></span>
+                                            </div>
+                                        </li>
+                                        <li> <a href="login.html"><span class="flaticon-user"></span></a></li>
+                                        <li><a href="cart.html"><span class="flaticon-shopping-cart"></span></a> </li>
+                                    </ul>
+                                </div>
+                            </div>*@
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        @RenderBody()
+        <section class="subscribe_part section_padding mt-30">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="subscribe_part_content">
+                            <h2>Hemen Kayıt Ol !</h2>
+                            <p>Sen de hayallerine bir adım daha yaklaşmak için hemen ailemize katıl.</p>
+                            <div class="hero__btn">
+                                <a href="/Home/KayitOl" class="btn hero-btn">Hemen kayıt ol !</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="/Home/Index"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>
+                                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                            Copyright &copy;
+                                            <script>document.write(new Date().getFullYear());</script>
+                                            <br /> TELİF HAKKI VE KOPYA;
+                                            <br />TÜM HAKLARI SAKLIDIR.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle" style="margin-top: 25px">
+                                <p>
+                                    <br /> Powered and Designed by
+                                    <br /> Anıl Yıldırım & Enes Rodop
+                                    <br /> enesrodop@outlook.com
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Hızlı Erişim Linkleri</h4>
+                                <ul>
+                                    <li><a href="/Home/Hakkimizda">Hakkımızda</a></li>
+                                    <li><a href="/Home/Katalog">Katalog</a></li>
+                                    <li><a href="/Home/Sertifikalar">Sertifikalarımız</a></li>
+                                    <li><a href="/Home/NedenUyeOlmaliyim">Neden Üye Olmalıyım?</a></li>
+                                    <li><a href="/Home/KayitOl">Hemen Üye Ol</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- Footer bottom -->
+
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!--? Search model Begin -->
+
+    <!-- Search model end -->
+    <!-- JS here -->
+
+
+</body>
+</html>
+

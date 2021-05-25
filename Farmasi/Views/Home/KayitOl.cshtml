@@ -1,0 +1,180 @@
+﻿
+@{
+    ViewBag.Title = "KayitOl";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<div class="slider-area ">
+    <div class="single-slider slider-height2 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap text-center">
+                        <h2>
+                            Farmasi'ye Hoşgeldiniz <br>
+                            Hemen Kayıt Olun !
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="login_part" style="margin-top: 70px">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="login_part_text text-center">
+                    <div class="login_part_text_iner">
+                        <h2>@*Farmasi'yle Hayallerini Yaşa !*@</h2>
+                        <img src="~/assest/images/kayitolpage/5.jpeg" class="card-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="login_part_form">
+                    <div class="login_part_form_iner">
+
+                        <div class="col-md-12 form-group p_star">
+                            <input type="text" class="form-control" id="name" name="name" value=""
+                                   placeholder="Adınız Soyadınız">
+                        </div>
+                        <div class="col-md-12 form-group p_star">
+                            <input type="text" class="form-control" id="phone" name="name" value=""
+                                   placeholder="Telefon numaranız">
+                        </div>
+                        <div class="col-md-12 form-group p_star">
+                            <input type="text" class="form-control" id="tc" name="name" value=""
+                                   placeholder="TC Kimlik No (Fatura ve Doğrulama Kodu İçin)">
+                        </div>
+                        <div class="col-md-12 form-group p_star">
+                            <input type="text" class="form-control" id="il" name="name" value=""
+                                   placeholder="İl">
+                        </div>
+                        <div class="col-md-12 form-group p_star">
+                            <input type="text" class="form-control" id="ilce" name="name" value=""
+                                   placeholder="İlçe">
+                        </div>
+                        <div class="col-md-12 form-group p_star">
+                            <textarea placeholder="Açık Adresiniz (Örn: Örnek Mah. Cumhuriyet Cad. No:1/2 Semt)" class="form-control" rows="5" id="adress"></textarea>
+
+                        </div>
+                        <p class="ml-3">Doğum Tarihiniz : </p>
+                        <div class="col-md-12 form-group row">
+                            <select class="form-control ml-3" style="width: 130px" id="days"></select>
+                            <select class="form-control ml-1" style="width: 100px" id="months"></select>
+                            <select class="form-control ml-1" style="width: 130px" id="years"></select>
+                        </div>
+
+
+                        <div class="col-md-12 form-group">
+                            <button type="submit" value="submit" id="btnSave" class="btn_3">
+                                Kayıt Ol
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new-product-area section-padding20">
+    <div class="container">
+        <!-- Section tittle -->
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="single-new-pro mb-30 text-center">
+                    <div class="product-img">
+                        <img src="~/assest/images/kayitolpage/1.jpeg" alt="">
+                    </div>
+                    @*<div class="product-caption">
+                            <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                            <span>$ 45,743</span>
+                        </div>*@
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="single-new-pro mb-30 text-center">
+                    <div class="product-img">
+                        <img src="~/assest/images/kayitolpage/2.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="single-new-pro mb-30 text-center">
+                    <div class="product-img">
+                        <img src="~/assest/images/kayitolpage/3.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new-product-area section-padding20">
+    <div class="container">
+        <!-- Section tittle -->
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="single-new-pro mb-30 text-center">
+                    <div class="product-img">
+                        <img src="~/assest/images/kayitolpage/4.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="single-new-pro mb-30 text-center">
+                    <div class="product-img">
+                        <img src="~/assest/images/kayitolpage/6.jpeg" alt="">
+                    </div>
+                    @*<div class="product-caption">
+                            <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                            <span>$ 45,743</span>
+                        </div>*@
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="single-new-pro mb-30 text-center">
+                    <div class="product-img">
+                        <img src="~/assest/images/kayitolpage/7.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="single-new-pro mb-30 text-center">
+                    <div class="product-img">
+                        <img src="~/assest/images/kayitolpage/8.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="login_part" style="margin-top: 70px">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="login_part_text text-center">
+                    <div class="login_part_text_iner">
+                        <h2>@*Farmasi'yle Hayallerini Yaşa !*@</h2>
+                        <img src="~/assest/images/kayitolpage/9.jpeg" class="card-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <blockquote class="generic-blockquote">
+                    Bu serüvene başlarken denemenin bana zararı olmıcagını düşünerek başladım, zaten evdeyim iki
+                    çocuğum var eğitmenlik mesleğim olmasına rağmen çalışma saatleri ve yoğunluğu aile hayatıma uygun olmadığı için evet deneyelim dedim ve o noktada bir dönüm noktası olduğunu hiç düşünmeden başladım. Çevremin ne kadarda geniş olduğunu ve ne kadarda doğrudan satışın kolay olduğunu ilk haftalarda gördüm, artık ciddiye almaya başladım başarabilirim dedim ürünler hakkında araştırmalar yaptım ekibime nasıl yeni üyeler eklerim nasıl dahada başarılı oluruz diye hep bu günü bir ay önce hesap ederek sistemli çalışmaya başladım. Sponsorlarımın  desteğini hissettikçe başarı kaçınılmaz oldu evet ben bugün müdür oldum ve bu daha bir başlangıç daha bizi bekleyen çok uzun heyecanlı bir yol var burdan tüm başlasam diye düşünenlere sesleniyorum denemenin bize bir götürüsü olmayan bu yolda denemenin çok faydası var evimde çocuklarımla aile düzenimle sosyal hayatımla ben çalışıyorum ve  ekonomik özgürlüğüm var.
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="~/Scripts/kayit.js"></script>
